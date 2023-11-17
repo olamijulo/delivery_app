@@ -1,11 +1,9 @@
-import 'package:ably_flutter/ably_flutter.dart';
 import 'package:delivery_app/features/login/login_screen.dart';
 import 'package:delivery_app/services/ably_service.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_dotenv/flutter_dotenv.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:ably_flutter/ably_flutter.dart' as ably;
 
 void main() async {
   runApp(ProviderScope(child: const MyApp()));
